@@ -1,3 +1,4 @@
+## Node ##
 # Logs
 logs
 *.log
@@ -35,3 +36,23 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+## Babel ##
+.DS_Store
+node_modules
+test/tmp
+*.log
+*.cache
+/templates.json
+/tests.json
+/browser.js
+/browser-polyfill.js
+/runtime.js
+/coverage
+dist
+/.package.json
+/packages/babel-runtime/core-js
+/packages/babel-runtime/helpers/*.js
+/packages/*/lib
+_babel.github.io
+/tests/.browser-build.js
